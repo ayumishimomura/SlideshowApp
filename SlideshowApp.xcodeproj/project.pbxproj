@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE45BE8D26947E19001DE614 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45BE8C26947E19001DE614 /* ExpansionViewController.swift */; };
+		CE608A882696BFCC004F6218 /* st_yosai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE608A852696BFCB004F6218 /* st_yosai.jpg */; };
+		CE608A892696BFCC004F6218 /* st_chinoue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE608A862696BFCB004F6218 /* st_chinoue.jpg */; };
+		CE608A8A2696BFCC004F6218 /* st_hanebashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE608A872696BFCB004F6218 /* st_hanebashi.jpg */; };
 		CED3D81426940CD5004BA43F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D81326940CD5004BA43F /* AppDelegate.swift */; };
 		CED3D81626940CD5004BA43F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D81526940CD5004BA43F /* SceneDelegate.swift */; };
 		CED3D81826940CD5004BA43F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D81726940CD5004BA43F /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE45BE8C26947E19001DE614 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
+		CE608A852696BFCB004F6218 /* st_yosai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st_yosai.jpg; sourceTree = "<group>"; };
+		CE608A862696BFCB004F6218 /* st_chinoue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st_chinoue.jpg; sourceTree = "<group>"; };
+		CE608A872696BFCB004F6218 /* st_hanebashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st_hanebashi.jpg; sourceTree = "<group>"; };
 		CED3D81026940CD5004BA43F /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED3D81326940CD5004BA43F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED3D81526940CD5004BA43F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +50,9 @@
 			children = (
 				CED3D81226940CD5004BA43F /* SlideshowApp */,
 				CED3D81126940CD5004BA43F /* Products */,
+				CE608A862696BFCB004F6218 /* st_chinoue.jpg */,
+				CE608A872696BFCB004F6218 /* st_hanebashi.jpg */,
+				CE608A852696BFCB004F6218 /* st_yosai.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +70,7 @@
 				CED3D81326940CD5004BA43F /* AppDelegate.swift */,
 				CED3D81526940CD5004BA43F /* SceneDelegate.swift */,
 				CED3D81726940CD5004BA43F /* ViewController.swift */,
+				CE45BE8C26947E19001DE614 /* ExpansionViewController.swift */,
 				CED3D81926940CD5004BA43F /* Main.storyboard */,
 				CED3D81C26940CD6004BA43F /* Assets.xcassets */,
 				CED3D81E26940CD6004BA43F /* LaunchScreen.storyboard */,
@@ -124,8 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE608A8A2696BFCC004F6218 /* st_hanebashi.jpg in Resources */,
 				CED3D82026940CD6004BA43F /* LaunchScreen.storyboard in Resources */,
+				CE608A892696BFCC004F6218 /* st_chinoue.jpg in Resources */,
 				CED3D81D26940CD6004BA43F /* Assets.xcassets in Resources */,
+				CE608A882696BFCC004F6218 /* st_yosai.jpg in Resources */,
 				CED3D81B26940CD5004BA43F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE45BE8D26947E19001DE614 /* ExpansionViewController.swift in Sources */,
 				CED3D81826940CD5004BA43F /* ViewController.swift in Sources */,
 				CED3D81426940CD5004BA43F /* AppDelegate.swift in Sources */,
 				CED3D81626940CD5004BA43F /* SceneDelegate.swift in Sources */,
