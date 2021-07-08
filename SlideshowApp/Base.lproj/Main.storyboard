@@ -26,6 +26,7 @@
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="goExpansion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hOP-sM-pGq"/>
                                     <segue destination="eC1-fj-hDH" kind="show" id="bVL-XB-cp0"/>
                                 </connections>
                             </button>
